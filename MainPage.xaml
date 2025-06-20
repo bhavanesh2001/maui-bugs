@@ -2,4 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="maui_bugs.MainPage">
+    <VerticalStackLayout Spacing="20" Margin="10">
+        <Entry Placeholder="This is an Entry..." TextTransform="Uppercase" TextChanged="Entry_TextChanged" />
+        <Editor Placeholder="This is an Editor..." TextTransform="Uppercase" TextChanged="Editor_TextChanged" />
+        <SearchBar Placeholder="This is a SearchBar..." TextTransform="Uppercase" TextChanged="SearchBar_TextChanged" />
+    </VerticalStackLayout>
 </ContentPage>
