@@ -2,4 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="maui_bugs.MainPage">
+    <VerticalStackLayout VerticalOptions="Start">
+        <Button Text="Go to NewPage" Clicked="Button_Clicked" />
+        <Image Source="dotnet_bot.png"/>
+        <Image Source="dotnet_bot.png" HeightRequest="200"/>
+        <Image Source="dotnet_bot.png" HeightRequest="300"/>
+    </VerticalStackLayout>
 </ContentPage>
